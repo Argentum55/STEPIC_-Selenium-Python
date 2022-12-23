@@ -1,4 +1,7 @@
+from selenium import webdriver
 from selenium.webdriver.common.by import By
+import math
+import time
 from math import log, sin
 
 # В данной задаче вам нужно с помощью роботов решить ту же математическую задачу, как и в прошлом задании. Но теперь значение переменной х спрятано в "сундуке", точнее, значение хранится в атрибуте valuex у картинки с изображением сундука.
@@ -25,25 +28,27 @@ try:
     browser.get("http://suninjuly.github.io/get_attribute.html")
 
     # Найти на ней элемент-картинку, который является изображением сундука с сокровищами
-    add_button = browser.find_element(By.CSS_SELECTOR, ".add")
-    add_button.click()
+    treasure = browser.find_element(By.CSS_SELECTOR, "[id='treasure']")
+    # Взять у этого элемента значение атрибута valuex, которое является значением x для задачи.
+    x = treasure.get_attribute("valuex")
 
-    # открываем страницу второго товара
-    browser.get("https://fake-shop.com/book2.html")
+    # Посчитать математическую функцию от x (сама функция остаётся неизменной).
+    func_x = calc(x)
 
-    # добавляем товар в корзину
-    add_button = browser.find_element(By.CSS_SELECTOR, ".add")
-    add_button.click()
+    answer = browser.find_element(By.CSS_SELECTOR, "[id='answer']")
+    answer.send_keys(func_x)
+    # Отметить checkbox "I'm the robot".
+    robot_checkbox_el = browser.find_element(By.CSS_SELECTOR, "[id='robotCheckbox']")
+    robot_checkbox_el.click()
 
-    # тестовый сценарий
-    # открываем корзину
-    browser.get("https://fake-shop.com/basket.html")
+    robot_rule = browser.find_element(By.CSS_SELECTOR, "[id='robotsRule']")
+    robot_rule.click()
 
-    # ищем все добавленные товары
-    goods = browser.find_elements(By.CSS_SELECTOR, ".good")
+    submit_button = browser.find_element(By.CSS_SELECTOR, "[type='submit']")
+    submit_button.click()
 
-    # проверяем, что количество товаров равно 2
-    assert len(goods) == 2
+    button_send = 30
+    
 finally:
         # успеваем скопировать код за 30 секунд
     time.sleep(30)
