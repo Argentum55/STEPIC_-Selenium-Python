@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="29437364-e3a4-42e7-af98-950d6c7c96b9" name="Changes" comment="" />
+    <list default="true" id="29437364-e3a4-42e7-af98-950d6c7c96b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Selenium_Python_Stepik.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Explicit Waits.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/Explicit Waits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find_elements_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/find_elements_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/first_script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_atribute.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/get_atribute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/implicity_wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/implicity_wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6_step4.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/lesson6_step4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/select_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/OLD/select_1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dseQubGh4ub7zXBnMCqufWfOxP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +42,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Explicit Waits.executor": "Run",
+    "Python.get_atribute.executor": "Run",
+    "Python.lesson6_step4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/projects/Selenium_Python_Stepik/Selenium_Python_Stepik/OLD",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\Selenium_Python_Stepik\Selenium_Python_Stepik\OLD" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,5 +74,28 @@
       <updated>1710801200406</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
